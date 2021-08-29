@@ -277,6 +277,8 @@ body {
     border-radius: 7px;
     padding: 0px 0px 31px 37px;
     margin-top: 45px;
+    @include media-breakpoint-up(xs) {
+    }
     @include media-breakpoint-up(md) {
       padding: 0px 0px 26px 25px;
     }
