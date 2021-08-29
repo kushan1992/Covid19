@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": false,
   "homepage": "https://kushan1992.github.io/Covid19",
-  "proxy": "http://localhost:5000",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.0",
