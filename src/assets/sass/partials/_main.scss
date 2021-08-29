@@ -1,0 +1,315 @@
+//variable
+@import "partials/variable";
+@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
+
+body {
+  font-family: $font-stack;
+  background-color: $background-color;
+}
+
+.protect {
+  padding: 30px 25px 50px 25px;
+  @include media-breakpoint-up(md) {
+    padding: 30px 5px 50px 5px;
+  }
+  @include media-breakpoint-up(lg) {
+    padding: 30px 5px 50px 5px;
+  }
+  @include media-breakpoint-up(xl) {
+    padding: 30px 5px 50px 5px;
+  }
+
+  .protect-heading {
+    .protect-text {
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 27px;
+    }
+  }
+  .protect-card {
+    background-color: #ffffff;
+    margin-top: 30px;
+    border-radius: 7px;
+    @include media-breakpoint-up(md) {
+      text-align: center;
+    }
+
+    .protect-image {
+      margin: 17px 33px 17px 33px;
+      @include media-breakpoint-up(xs) {
+        margin: 50px 5px 15px 5px;
+      }
+      @include media-breakpoint-up(md) {
+        margin: 50px 5px 15px 10px;
+      }
+      @include media-breakpoint-up(lg) {
+        margin: 70px 5px 15px 10px;
+      }
+      @include media-breakpoint-up(xl) {
+        margin: 70px 5px 15px 25px;
+      }
+    }
+    .protect-image-text {
+      padding-top: 61px;
+      @include media-breakpoint-up(xs) {
+        padding-top: 90px;
+      }
+      @include media-breakpoint-up(md) {
+        padding-top: 10px;
+      }
+      @include media-breakpoint-up(lg) {
+        padding: 100px 25px 0px 25px;
+      }
+    }
+    .wearmask-text {
+      padding-top: 61px;
+      text-align: center;
+      @include media-breakpoint-up(md) {
+        padding: 80px 20px 5px 20px;
+      }
+      // @include media-breakpoint-up(lg) {
+      //   padding-top: 80px;
+      // }
+      @include media-breakpoint-up(xl) {
+        padding: 55px 20px 5px 20px;
+      }
+    }
+    .protect-wearmask {
+      text-align: center;
+      .protect-wearmask-image {
+        height: 342px;
+        weight: 342px;
+        @include media-breakpoint-up(xs) {
+          height: 190px;
+          weight: 190px;
+        }
+        @include media-breakpoint-up(md) {
+          height: 190px;
+          weight: 190px;
+        }
+        @include media-breakpoint-up(lg) {
+          height: 242px;
+          weight: 242px;
+        }
+      }
+    }
+  }
+}
+
+.sectionOne {
+  padding: 30px 25px 50px 25px;
+  @include media-breakpoint-up(md) {
+    padding: 30px 5px 50px 5px;
+  }
+  @include media-breakpoint-up(lg) {
+    padding: 30px 5px 50px 5px;
+  }
+  @include media-breakpoint-up(xl) {
+    padding: 30px 10px 50px 25px;
+  }
+
+  .sectionOne-heading {
+    .sectionOne-text {
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 27px;
+    }
+  }
+  .sectionOne-card {
+    margin-top: 30px;
+    .new-cases {
+      background: linear-gradient(243.54deg, #b2def1 3.02%, #34bcf8 100%);
+      border-radius: 7px;
+      padding: 82px 0px 20px 13px;
+      @include media-breakpoint-up(lg) {
+        padding: 95px 0px 20px 13px;
+      }
+      @include media-breakpoint-up(xl) {
+        padding: 85px 0px 20px 13px;
+      }
+      .card-text {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        color: $light;
+      }
+      .card-stat {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        color: $light;
+      }
+    }
+    .new-deaths {
+      background: linear-gradient(241.3deg, #f3bfbf 0%, #de6262 100%);
+      border-radius: 7px;
+      padding: 82px 0px 20px 13px;
+      @include media-breakpoint-up(lg) {
+        padding: 95px 0px 20px 13px;
+      }
+      @include media-breakpoint-up(xl) {
+        padding: 85px 0px 20px 13px;
+      }
+      .card-text {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        color: $light;
+      }
+      .card-stat {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        color: $light;
+      }
+    }
+    .total-cases {
+      background: linear-gradient(241.3deg, #dbd1ff 0%, #6942ff 100%);
+      border-radius: 7px;
+      padding: 82px 0px 20px 13px;
+      @include media-breakpoint-up(lg) {
+        padding: 95px 0px 20px 13px;
+      }
+      @include media-breakpoint-up(xl) {
+        padding: 80px 0px 20px 13px;
+      }
+      .card-text {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        color: $light;
+      }
+      .card-stat {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        color: $light;
+      }
+    }
+    .deaths {
+      background: linear-gradient(241.3deg, #b9ccf2 0%, #377bfe 100%);
+      border-radius: 7px;
+      padding: 82px 0px 20px 13px;
+      @include media-breakpoint-up(md) {
+        padding: 110px 0px 20px 13px;
+      }
+      @include media-breakpoint-up(lg) {
+        padding: 95px 0px 20px 13px;
+      }
+      @include media-breakpoint-up(xl) {
+        padding: 80px 0px 20px 13px;
+      }
+      .card-text {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        color: $light;
+      }
+      .card-stat {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        color: $light;
+      }
+    }
+  }
+  .sectionOne-chart {
+    margin-top: 45px;
+    .chart-section {
+      background: #ffffff;
+      border-radius: 7px;
+      padding: 10px 100px 20px 100px;
+      @include media-breakpoint-up(xs) {
+        padding: 80px 5px 80px 5px;
+      }
+      @include media-breakpoint-up(md) {
+        padding: 80px 5px 80px 5px;
+      }
+      @include media-breakpoint-up(lg) {
+        padding: 45px 5px 40px 5px;
+      }
+      @include media-breakpoint-up(xl) {
+        padding: 30px 5px 15px 5px;
+      }
+      @media (min-width: 1440px) {
+        padding: 30px 40px 15px 40px;
+      }
+    }
+  }
+}
+
+.sectionTwo {
+  padding: 88px 25px 50px 25px;
+  @include media-breakpoint-only(xs) {
+    padding: 48px 25px 50px 25px;
+  }
+  .sectionTwo-card {
+    background: linear-gradient(218.76deg, #b0e7ff 0%, #669aff 100%);
+    border-radius: 7px;
+    padding: 10px 0px 31px 37px;
+    @include media-breakpoint-up(xs) {
+      padding: 10px 0px 31px 15px;
+    }
+    @include media-breakpoint-up(md) {
+      padding: 10px 0px 31px 25px;
+    }
+    @include media-breakpoint-up(lg) {
+      padding: 10px 0px 31px 25px;
+    }
+    .card-area {
+      padding-top: 15px;
+      .card-text {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        color: $light;
+      }
+      .card-stat {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        color: $light;
+      }
+    }
+  }
+  .sectionTwo-card-global {
+    background: linear-gradient(216.44deg, #f0dff1 0%, #bb64bf 100%);
+    border-radius: 7px;
+    padding: 0px 0px 31px 37px;
+    margin-top: 45px;
+    @include media-breakpoint-up(md) {
+      padding: 0px 0px 26px 25px;
+    }
+    @include media-breakpoint-up(lg) {
+      padding: 0px 0px 26px 25px;
+    }
+    .card-global-area {
+      padding-top: 34px;
+      .globe-icon {
+        color: $light;
+        margin-right: 10px;
+      }
+      .card-text {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 27px;
+        color: $light;
+      }
+    }
+    .card-area {
+      padding-top: 6px;
+      .card-text {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        color: $light;
+      }
+      .card-stat {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        color: $light;
+      }
+    }
+  }
+}
