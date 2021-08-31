@@ -25,7 +25,7 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "PORT=3003 concurrently \"react-scripts start\" \"gulp\"",
+    "start": "concurrently \"react-scripts start\" \"gulp\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
