@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from "react";
 import PropTypes from "prop-types";
 import Header from "./header";
+import Footer from "./Footer";
 
 class Template extends Component {
   constructor(props) {
@@ -13,6 +14,7 @@ class Template extends Component {
       <Fragment>
         <Header />
         {children}
+        <Footer />
       </Fragment>
     );
   }

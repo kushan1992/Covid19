@@ -156,7 +156,7 @@ function Homepage() {
           <Row>
             <Col sm="12" xs="12">
               <div className="chart-section">
-                <Doughnut data={staticsChart()} />
+                <Doughnut data={staticsChart()} className="doughnutChart" />
               </div>
             </Col>
           </Row>
