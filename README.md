@@ -10,13 +10,13 @@ Node installation of your local machine.
 
 # Recommended modules
 
-These modules mainly used to build this app.
-axios
-react-chartjs-2
-react-redux
+These modules mainly used to build this app.</br>
+axios</br>
+react-chartjs-2</br>
+react-redux</br>
 reactstrap
 
 # Installation
 
-npm install
+npm install</br>
 npm start
